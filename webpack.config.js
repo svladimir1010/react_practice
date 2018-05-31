@@ -47,15 +47,15 @@ module.exports = {
 			filename: 'index.html',
 			path: outputPath
 		}),
-		new webpack.NamedModulesPlugin(), //пишет в консоли какой плагин изменится
-		new webpack.HotModuleReplacementPlugin()
+		new webpack.NamedModulesPlugin(), //пишет в
+	  new webpack.HotModuleReplacementPlugin()
 	],
 	devServer: {
 		contentBase: path.resolve(__dirname, './dist'),
 		port: 8080,
 		historyApiFallback: true,
 		inline: true,
-		hot: true
-		// host: '0.0.0.0'
+		hot: true,
+	  host: '0.0.0.0'
 	}
 }
