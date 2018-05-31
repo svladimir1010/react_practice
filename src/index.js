@@ -1,5 +1,8 @@
- import React from 'react'
- import {render} from 'react-dom'
- import TestComponent from './TestComponent'
+import React from 'react'
+import { render } from 'react-dom'
+import App from './app'
+import './assets/styles/style.scss'
 
-render(	<TestComponent />, document.querySelector('#mount_place'))
+render(
+	<App />, document.querySelector('#app')
+)

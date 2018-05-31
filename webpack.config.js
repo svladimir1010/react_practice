@@ -47,7 +47,7 @@ module.exports = {
 			filename: 'index.html',
 			path: outputPath
 		}),
-		new webpack.NamedModulesPlugin(), //пишет в
+		new webpack.NamedModulesPlugin(), //info in console chenge as component
 	  new webpack.HotModuleReplacementPlugin()
 	],
 	devServer: {
